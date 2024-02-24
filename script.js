@@ -18,6 +18,11 @@ const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
 
+//buttons initialized
+button1.onclick = goStore;
+button2.onclick = goCave;
+button3.onclick = fightDragon;
+
 function goStore(){
 	console.log("Going to store.");
 }
