@@ -147,13 +147,20 @@ function sellWeapon(){
 }
 
 function fightSlime() {
-
+	fighting = 1;
+	goFight();
 }
 
 function fightBeast() {
-
+	fighting = 2;
+	goFight();
 }
 
 function fightDragon(){
-	console.log("Fighting dragon.");
+	fighting = 3;
+	goFight();
+}
+
+function goFight(){
+
 }
