@@ -186,17 +186,17 @@ function sellWeapon(){
 }
 
 function fightSlime() {
-	fighting = 1;
+	fighting = 0;
 	goFight();
 }
 
 function fightBeast() {
-	fighting = 2;
+	fighting = 1;
 	goFight();
 }
 
 function fightDragon(){
-	fighting = 3;
+	fighting = 2;
 	goFight();
 }
 
