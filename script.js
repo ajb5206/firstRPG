@@ -203,7 +203,6 @@ function attack(){
 	}else{
 		text.innerText += " You miss."
 	}
-	
 	healthText.innerText = health;
 	monsterHealthText.innerText = monsterHealth;
 	if(health <= 0){
@@ -214,6 +213,9 @@ function attack(){
 		}else{
 			defeatMonster();
 		}
+	}
+	if(Math.random() <= .1){
+		text.innerText += " Your " + inventory.pop() + " breaks."
 	}
 }
 
